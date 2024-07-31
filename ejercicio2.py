@@ -1,18 +1,20 @@
-def producto_p(A):
+def producto_p(V,W):
+    V=[]
+    W=[]
     a=0
-    for i in (A):
-        b=a
-        a=i*i
+    b=0
+    for i in range(len(V)and len(W)):
+        a=V[i]*W[i]
         a=b+a
-    return a
-
+    print (a)
 
 def main():
+    V=[5,2]
+    W=[1,2]
+    print(producto_p(V,W))
 
-    s=[1,2,3]
-    print(producto_p(s))
 if __name__=="__main__":
     main()
 
-    
+  
     
